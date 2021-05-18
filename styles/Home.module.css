@@ -51,6 +51,9 @@
   border-bottom: 1px solid gray;
   border-radius: 0 0 5px 5px;
 }
+.companyItem:last-of-type.companyItem:last-of-type{
+  border-radius:  5px 5px 5px 5px;
+}
 
 .companyItem:hover{
   cursor: pointer;
