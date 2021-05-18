@@ -1,12 +1,13 @@
 .company h3{
-    /* color: hotpink; */
     font-weight: 700;
     font-size: 48px;
     width: max-content;
     margin: 70px auto 40px 10%;
 }
+
 .general{
-    position: relative;
+    /* positioning of the Back btn */
+    position: relative;  
 }
 
 .frame{
@@ -58,6 +59,8 @@
     cursor: pointer;
     filter: brightness(110%);
 }
+
+/*        HIGHLIGHTS      */
 
 .feature{
     display: flex;
@@ -124,6 +127,10 @@
 
 .seniorityTable th:nth-child(3){
     width: 100px
+}
+
+.seniorityTable th:nth-child(4){
+    width: 100px;
 }
 
 .seniorityTable th:nth-child(5){
