@@ -62,7 +62,7 @@ const useHighlights = (id) => {
     return [positiveSorted[0], negativeSorted[0], neutralSorted[0]]
   }
 
-  return [positiveSorted, negativeSorted, neutralSorted, error]
+  return [highlightsData, positiveSorted, negativeSorted, neutralSorted, error]
 }
 
 export default useHighlights
