@@ -29,6 +29,7 @@ const formatSeniority = (data) => {
     transformedData.props.children[0].props.children[1] = " years"
   }
 
+  // key warning solved
   return <div>transformedData</div>
 }
 
