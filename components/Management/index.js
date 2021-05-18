@@ -29,7 +29,7 @@ const formatSeniority = (data) => {
     transformedData.props.children[0].props.children[1] = " years"
   }
 
-  return transformedData
+  return <div>transformedData</div>
 }
 
 const transformHeaderCell = (str) => {
